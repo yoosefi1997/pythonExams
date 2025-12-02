@@ -3,7 +3,7 @@
 #     print("Aria")
 #     word += 1
 # print("-"*20)
-from operator import truediv
+from operator import truediv, index
 from os.path import split
 
 # ------------------
@@ -655,6 +655,105 @@ from os.path import split
 # for x in range(0, i):
 #     if x % 2 == 0 and x <= 20:
 #         print(x)
+# // ------------------
+
+# for i in range(5):
+#     print("Hi, i'm Aria ")
+# // ----------------
+
+# for i in range(1, 11):
+#     print("Line number: ", i, "HI i'm Aria")
+# //-------------------
+
+# l = ["Aria","Arisha","Atila","Armita","Adrina","Amanda","Atena","Anahita","Atousa"]
+# i = l
+# for j in range(len(i)):
+#     print("id: ", j, "name: ", i[j])
+# i pleasure of coding with python.
+# //-------------------
+
+# l = ["Aria","Armita","Arisha","Anahita","Atena"]
+# for i in range(len(l)):
+#     print("Index number: ", i, "\t Name: ", l[i])
+# -----------------
+
+# user_access = input("do you want to inport your info?(y/n) ".capitalize())
+# users_infos = []
+# if user_access == "y":
+#     print("Welcome, answer this questions please: ")
+#     users_infos.append(input("Enter your first name: "))
+#     users_infos.append(input("Enter your last name: "))
+#     users_infos.append(input("Enter your Age: "))
+#     users_infos.append(input("Enter your E-mail address: "))
+#     users_infos.append(input("Enter your Phone number: "))
+#     print(users_infos)
+# else:
+#     print("comeback latter!")
+# -------------
+
+# user_infos = []
+# user_access = input("do you want to input your Infos?(enter 'y/n' to Answer please)")
+# if user_access == "y":
+#     print("Welcome, please answer this questions:")
+#     user_infos.append(input("First name: "))
+#     user_infos.append(input("Last name: "))
+#     user_infos.append(input("Gender: "))
+#     user_infos.append(input("Age: "))
+#     user_infos.append(input("E-mail address: "))
+#     user_infos.append(input("Phone number: "))
+#     # print("your info is in bellow\n", user_infos)
+#     j = user_infos
+#     for i in range(len(user_infos)):
+#         print("\t", "Row's Number - ", i," : ", j[i])
+# else:
+#     print("Comeback latter!")
+# ------------------
+
+
+
+
+
+
+
+# user_list = [[input("enter a nem: ")],[input("enter a lastnem: ")]]
+# print(user_list)
+
+# list_user = []
+# list_user.append(input("enter a nem: "))
+# print(list_user)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
