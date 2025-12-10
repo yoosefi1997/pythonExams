@@ -709,6 +709,119 @@ from os.path import split
 #     print("Comeback latter!")
 # ------------------
 
+# l1 = [1,2,3,4,5,6,7]
+# l2 = [2,4,6,8,10,12]
+# for i in l1:
+#     for j  in l2:
+#         if i == j:
+#             print(i)
+# -----------------
+
+# list1 = [1, 2, 3, 4, 5, 6, 7, 8, 9]
+# list2 = [2, 4, 6, 8, 10, 12, 14, 16]
+# for i in list1:
+#     if i in list2:
+#         print(i)
+# --------------------
+
+# l = [1, [1, 2, 3], [4, 5, 6], [7, 8, 9], 10, [11, 12, [13, 14, 15], 16]]
+# l1 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+# # print(len(l))
+# for a, b, c in l1:
+#     # print(a)
+#     # print(b)
+#     # print(c)
+#     print(a, b, c)
+# ----------
+
+# l = [[1,2,3], [4,5,6], [7,8,9,10,11], [12,13,14,15]]
+# for a, *b, c in l:
+#     print(a, b, c)
+# ---------------
+
+# for i in range(0, 10):
+#     print(i)
+# -------------
+
+# for i in range(2, 10):
+#     print(i)
+#     ---------------
+
+# for i in range(1, 10, 1):
+#     print(f"The numbers from 1 to 10: {i} ")
+# -------------------
+
+# for i in range(1, 10, 2):
+#     print(f"The number from 1 to 10 with 2th steps: {i} ")
+#     ---------------
+
+# print("The Numbers from 2 to 10 with 2th steps: ")
+# for i in range(2, 10, 2):
+#     print(f"\t{i}")
+#     -----------------
+
+# print("The Number from 2 to 11 with 2th steps: ")
+# for i in range(2, 11, 2):
+#     print(f"\t{i}"*i)
+# print("The Numbers from 3 to 12 with 3th steps: ")
+# for i in range(3, 12, 3):
+#     print("\t"*i,f"{i}")
+
+# print("The Numbers from 2 to 20 with 5th steps: ")
+# for i in range(2 , 20, 2):
+#     print("\t"*2, i)
+# -------------
+
+# print("The numbers From 3 to 15 with 3th steps: ")
+# for i in  range(3, 15, 3):
+#     print("\t"*3, f"{i}")
+#     ---------------
+
+# print("The numbers From 2 to 25 with 3th steps: ")
+# for i in range(2, 25, 3):
+#     for j in range(3):
+#         print("\t"*j, i)
+# ----------------
+
+# for i in range(-10, -100, -20):
+#     print(f"\t{i}")
+# ----------------------
+
+# l = input("Names: ").split("-")
+# for i in l:
+#     print(i)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
