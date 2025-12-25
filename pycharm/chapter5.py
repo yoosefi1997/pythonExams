@@ -790,6 +790,88 @@ from os.path import split
 # l = input("Names: ").split("-")
 # for i in l:
 #     print(i)
+# ------------------
+
+
+# l = ["A","B","C","D"]
+# for i in range(0, len(l)):
+#     print(i, " ", l[i])
+# ---------
+#
+# l = ["B","C","D","E","F"]
+# for i, j in enumerate(l):
+#     print(i, " - ", j)
+#     -----------
+
+# l = ["a","b","c","d","e","f"]
+# for i, j in enumerate(l, 2):
+#     print(i, " - ", j)
+# ---------------
+
+
+# n = ["Aria", "Arta", "Amanda", "Atusa"]
+# a = [29, 22, 26, 23]
+# for i in range(0, len(n)):
+#     print("Name: ", n[i], "Age: ", a[i])
+# ---------------
+
+# n = ["Aria", "Atusa", "Amanda", "aRTA"]
+# a = [21, 22, 23, 24]
+# for i, j in zip(n, a):
+#     print("Name: ", i, " - ", "Age: ", j)
+#     -------------------
+
+# name = ["Aria", "Babak", "Cr7", "Dorsa"]
+# age = [11, 12, 13, 14]
+# for i in reversed(name):
+#     print("Name: ", i)
+# --------------
+
+# name = ["Aria", "Anahita", "Babak", "Dawood", "Elika", "Fereydoon"]
+# age = [23, 24, 25, 26, 27, 28]
+# for i in reversed(age):
+#     print("Age: ", " - ", i)
+# --------------------
+
+# a = ["Aria", "Babak", "CR7", "Dawood", "Elika", "Fereydoon"]
+# b = [23, 24, 25, 26, 27, 28]
+# for i, j in zip(reversed(a), sorted(b)):
+#     print("Name: ", i, " - ", "Age: ", j)
+# -------------
+
+# l = ["a","b","c","d","e","f"]
+# for i, j in enumerate(reversed(l)):
+#     print(i, " - ", j)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
