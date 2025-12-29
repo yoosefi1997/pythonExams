@@ -842,6 +842,59 @@ from os.path import split
 # l = ["a","b","c","d","e","f"]
 # for i, j in enumerate(reversed(l)):
 #     print(i, " - ", j)
+# --------------------
+
+# # print the star line by line
+# i = 1
+# while i <= 5:
+#     j = 1
+#     while j <= i:
+#         print("*", end=" ")
+#         j +=1
+#     print()
+#     i += 1
+# print("Loop ended!")
+# ------------
+#
+# i = 5
+# while i >= 1:
+#     j = i
+#     while j >= 1:
+#         print("*" , end=" ")
+#         j -= 1
+#     print()
+#     i -= 1
+# print("Loop ended")
+# ------------
+#
+# for i in range(5, 0, -1):
+#     for j in range(i, 0, -1):
+#         print("*", end=" ")
+#     print()
+# ----------------
+
+# for i in range(5, 0, -1):
+#     print("*" * i)
+# -------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
