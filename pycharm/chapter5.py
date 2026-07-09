@@ -880,199 +880,39 @@ from os.path import split
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# user_list = [[input("enter a nem: ")],[input("enter a lastnem: ")]]
-# print(user_list)
-
+# <<<<<<<<
 # list_user = []
 # list_user.append(input("enter a nem: "))
 # print(list_user)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# >>>>>>>>>
+
+# enumerate()
+# l = ["a","b","c","d","e"]
+# for i in range(0, len(l)):
+#     print(i, l[i])
+# ------------------------
+# l = ["a","b","c","d","e","f"]
+# print(list(enumerate(l)))
+# ------------------
+
+# l = ["a","b","c","d","e","f","g","h"]
+# for i,j in enumerate(l):
+#     print(i," - ", j)
+# ----------------
+
+# x = ["aria", "arta", "armita", "afshin", "Aahoo", "ahoora", "Arshaam"]
+# # print(len(x))
+# y = ["29", "25", "24", "22", "26", "24", "26"]
+# # print(len(y))
+# for i in range(0, len(x)):
+#     print("Name: ", x[i], "Age: ", y[i])
+# --------------------
+
+x = ["Aria","Arta","Amanda","Arsam","Ariana","Atena"]
+y = [21,22,23,24,25,26,27]
+for i ,j in zip(x, y):
+    print( i, " -"*5,  j)
+# ---------------
 
 
 

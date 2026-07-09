@@ -1,6 +1,8 @@
 # import random
 # random.randint()
 # random.choice()
+from itertools import count
+from operator import index
 
 # from random import random, seed
 # # when we need amount of
@@ -14,7 +16,7 @@
 # ---------------
 
 
-from random import random, seed
+# from random import random, seed
 
 from decorator import append
 
@@ -42,18 +44,66 @@ from decorator import append
 # print(rand_list)
 # randset = set(rand_list)
 # print(randset)
+# -------------
+from random import random, uniform
 
+# for _ in range(12):
+#     print(uniform(5, 12))
+# ---------
 
+# for _ in range(15):
+#     print(int(uniform(5, 12)))
+# -------------
 
+# for i in range(12000):
+#     if int(uniform(5, 12)) == 11:
+#         print("Ok!")
+#     else:
+#         print("Not ok")
+# ----------
+from random import randint
 
+# for _ in range(10):
+#     print(randint(5, 12))
+# -------------
+from random import randrange
 
+# for _ in range(10):
+#     print(randrange(5, 99, 2))
+# -----------
+from random import randint
 
+# x = ['a','b','c','d']
+# for _ in range(11):
+#     print(x[randint(0, len(x)-1)])
+# ------------
+from random import choice
 
+# x = ["a","b","c","d","e"]
+# for _ in range(12):
+#     print(choice(x))
+# -----------
+from random import sample
 
+# x = ["a","b","c","d","e","f",]
+# print("x: ", x)
+# print("select amount of members from above list:", sample(x, 2))
+# print()
+# for _ in range(19):
+#     print(sample(x, 3))
+# ----------------
+from random import seed
 
+x = ["a","b","c","d","e","f","g"]
+seed(15)
+print("The const of a Sample:", sample(x, 4))
+print()
+for _ in range(12):
+    print(sample(x, 3))
+# -------------
 
+# Random Methods:
 
-
-
-
-
+# x = ["a","b","c","d","e","f","g"]
+# print("The const of a Sample:", sample(x, 3))
+# the top example is test example for test the python extension in vscode.
